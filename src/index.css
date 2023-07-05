@@ -1,0 +1,119 @@
+body{
+  background: linear-gradient(to bottom, #81599b, #4a7fae);
+}
+
+
+.task-form{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border-radius: 75%;
+  padding: 10px;
+  align-items: center;
+  text-indent: 5%;
+  margin-top: 5%;
+ 
+}
+
+.task-form input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10%;
+ 
+}
+
+.task-form button {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+h1{
+  margin-top: 10%;
+  text-align:center
+}
+.dropdown-container {
+  text-align: right;
+}
+
+
+.card{
+  background-color: rgb(71, 156, 49);
+  position: relative;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.task-form button {
+  padding: 5px 10px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 0 18rem;
+  margin: 10px;
+  border: 1px solid #2f0202;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #7199a8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-body input,
+.card-body select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.card-body .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-body .buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
